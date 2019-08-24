@@ -1,4 +1,7 @@
 from flask import Flask
+from flask_cors import CORS
+from datetime import date
+from datetime import datetime
 from flask import request, Response, jsonify
 
 app = Flask(__name__)
@@ -28,7 +31,20 @@ mediciones = [
     {'fecha': '2019-08-10 22:33:00', **tipo_medicion, 'Valor': 1000 },
 ]
 
-@app.route('/')
+@app.route('/mediciones')
+def getAll():
+    return jsonify(mediciones)
+
+@app.route('/mediciones/value', methods = ['POST'])
+def POST(): 
+    value = value.request.form.get('value')
+    now = datetime.now()
+    format = now.strftime('Año: %Y, Mes: %m, Día :%d, Hora: %H, Minutos: %M, Segundos: %S')
+    return jsonify(mediciones.append({'fecha':format, **tipo_medicion, 'Valor': value}))
+
+app.run(port=5000, debug=True)
+
+    
 
 
 
