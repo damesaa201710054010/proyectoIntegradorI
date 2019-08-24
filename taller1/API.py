@@ -37,11 +37,25 @@ def getAll():
 
 @app.route('/mediciones/value', methods = ['POST'])
 def POST(): 
-    value = value.request.form.get('value')
-    now = datetime.now()
-    format = now.strftime('Año: %Y, Mes: %m, Día :%d, Hora: %H, Minutos: %M, Segundos: %S')
-    return jsonify(mediciones.append({'fecha':format, **tipo_medicion, 'Valor': value}))
+    Body = request.get_json(force=True)
+    fecha = Body['fecha']
+    value = Body['value']
+    #format = fecha.strftime('Año: %Y, Mes: %m, Día :%d, Hora: %H, Minutos: %M, Segundos: %S')
+    mediciones.append({'fecha':fecha, **tipo_medicion, 'Valor': value})
+    return jsonify(mediciones)
 
+@app.route('/mediciones/media', methods = ['GET'])
+def getMedia():
+    sum  = 0
+    j = 0
+    for i in mediciones:
+        medicion = i['Valor']  
+        sum = sum + medicion
+        j = j+1
+    media = sum/j
+    respuesta = {'Media' : media}
+    return jsonify(respuesta)
+    
 app.run(port=5000, debug=True)
 
     
