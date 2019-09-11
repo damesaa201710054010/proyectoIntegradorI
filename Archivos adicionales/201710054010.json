@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "d1e0e878-6b2f-4208-a1be-2a28899b96fe",
+		"name": "taller1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMedia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones/media",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones",
+						"media"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fecha\": \"2019-08-31 09:15:00\",\n\t\"value\": 23456\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/mediciones/value",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mediciones",
+						"value"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

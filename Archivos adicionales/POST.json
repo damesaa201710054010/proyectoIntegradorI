@@ -1,0 +1,142 @@
+[
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 5000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-06 11:10:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 15000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-10 11:00:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 20000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-11 12:00:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 7500, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-11 14:56:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 25000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-11 15:47:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 5000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-07 16:30:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 15000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-09 17:32:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 15000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-20 19:37:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 12000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-30 23:45:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 2000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-31 09:15:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 1000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-24 06:20:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 500, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-25 01:09:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 6000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-27 15:38:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 10000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-29 16:49:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 10500, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-22 13:59:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 5000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-21 14:07:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 3000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-05 19:20:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 5000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-01 21:23:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 1000, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-10 22:33:00"
+  }, 
+  {
+    "Sensor": "TSL2561", 
+    "Unidades": "lx", 
+    "Valor": 23456, 
+    "Variable": "Luz Solar", 
+    "fecha": "2019-08-31 09:15:00"
+  }
+]

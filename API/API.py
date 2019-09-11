@@ -2,9 +2,9 @@ from flask import Flask
 from flask_cors import CORS
 from datetime import date
 from datetime import datetime
-from flask import request, Response, jsonify
+from flask import request, Response, jsonify, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 CORS(app)
 
 tipo_medicion = {'Sensor': 'TSL2561', 'Variable': 'Luz Solar', 'Unidades': 'lx'}
