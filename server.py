@@ -40,6 +40,6 @@ def getMedia():
     return jsonify(respuesta)
 
     
-
+app.run()
 
 
