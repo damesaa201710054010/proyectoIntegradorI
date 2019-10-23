@@ -39,7 +39,5 @@ def getMedia():
     respuesta = {'Media' : media}
     return jsonify(respuesta)
 
-    
-app.run()
 
 
