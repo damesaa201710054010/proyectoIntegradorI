@@ -26,19 +26,18 @@ def POST():
     #mediciones.append({'fecha':fecha, **tipo_medicion, 'Valor': value})
     return (participantes.create(body))
 
-#@app.route('/mediciones/media', methods = ['GET'])
-#def getMedia():
-#    sum  = 0
-#    j = 0
-#    for i in mediciones:
-#        medicion = i['Valor']  
-#        sum = sum + medicion
-#        j = j+1
-#    media = sum/j
-#    respuesta = {'Media' : media}
-#    return jsonify(respuesta)
-    
-app.run(port=5000, debug=True)
+@app.route('/mediciones/media', methods = ['GET'])
+def getMedia():
+    mediciones = participantes.list()
+    sum  = 0
+    j = 0
+    for i in mediciones:
+        medicion = i['Valor']  
+        sum = sum + medicion
+        j = j+1
+    media = sum/j
+    respuesta = {'Media' : media}
+    return jsonify(respuesta)
 
     
 
